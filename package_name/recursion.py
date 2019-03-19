@@ -29,4 +29,4 @@ def factorial(n):
 def reverse(word):
 
     '''Return word in reverse'''
-     return word[::-1]
+    return word[::-1]
