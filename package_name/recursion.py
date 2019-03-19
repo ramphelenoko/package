@@ -3,7 +3,7 @@ def sum_array(array):
     ''' Return sum of all items in array'''
 
     arr =sum(array)
-    return arr
+        return arr
 
 def fibonacci(n):
 
@@ -21,7 +21,7 @@ def fibonacci(n):
 def factorial(n):
 
     '''Return n!'''
-     if n == 1:
+    if n == 1:
         return n
     else:
         return n * factorial(n-1)
