@@ -45,12 +45,12 @@ def quick_sort(items):
 
     '''Return array of items, sorted in ascending order'''
 
-        len_i = len(items)
+    len_i = len(items)
 
     if len_i <= 1:
         return items
 
-    pivot = items[index]
+    pivot = items[0]
     small = []
     large = []
     dup = []
