@@ -2,7 +2,7 @@ def sum_array(array):
 
     ''' Return sum of all items in array'''
 
-    arr =sum(array)
+    arr = sum(array)
     return arr
 
 def fibonacci(n):
