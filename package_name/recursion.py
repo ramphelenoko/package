@@ -8,13 +8,9 @@ def sum_array(array):
 def Fibonacci(n): 
    
     '''Return nth term in fibonacci sequence'''
-
-    if n<0: 
-        print("Incorrect input") 
-    elif n==0: 
-        return 0
-    elif n==1: 
-        return 1
+    
+    if n <= 1
+        return n
     else: 
         return Fibonacci(n-1)+Fibonacci(n-2)
 
