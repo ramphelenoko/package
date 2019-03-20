@@ -5,13 +5,18 @@ def sum_array(array):
     arr = sum(array)
     return arr
 
-def fibonacci(n):
-
+def Fibonacci(n): 
+   
     '''Return nth term in fibonacci sequence'''
-    if n <= 1:
-       return 1
-    else:
-        return fibonacci(n - 2) + fibonacci(n - 1)
+
+    if n<0: 
+        print("Incorrect input") 
+    elif n==0: 
+        return 0
+    elif n==1: 
+        return 1
+    else: 
+        return Fibonacci(n-1)+Fibonacci(n-2)
 
 def factorial(n):
 
